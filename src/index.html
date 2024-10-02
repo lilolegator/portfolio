@@ -4,8 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header">
+        <nav>
+            <ul class="list">
+                <li class="list__item"><a href="/">Головна</a></li>
+                <li class="list__item"><a href="#">Навички</a></li>
+                <li class="list__item"><a href="#">Проекти</a></li>
+                <li class="list__item"><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <div class="retro-profile">
+            <div class="profile-header">
+              <h1>🕹️ Frontend Developer</h1>
+              <p>Рівень 10</p>
+            </div>
+            
+            <div class="skills-container">
+              <h2>Навички</h2>
+              <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                  <div class="progress" style="width: 90%;"></div>
+                </div>
+                <div class="skill-level">90%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                </div>
+                <div class="skill-level">85%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                </div>
+                <div class="skill-level">80%</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">React</div>
+                <div class="skill-bar">
+                  <div class="progress" style="width: 75%;"></div>
+                </div>
+                <div class="skill-level">75%</div>
+              </div>
+            </div>
+            
+            <div class="achievements-container">
+              <h2>Досягнення</h2>
+              <ul>
+                <li><span>🏆</span> Виконано понад 50 проектів </li>
+                <li><span>🌟</span> Досягнуто 100% задоволеності клієнтів </li>
+                <li><span>🔥</span> Майстер Flexbox & Grid </li>
+              </ul>
+            </div>
+          </div>
+    </section>
+
+    <section>
+        <div class="works-section">
+            <h2>🕹️ My Works</h2>
+            <div class="works-container">
+              <div class="work-item">
+                <div class="work-image">
+                  <img src="project1.png" alt="Project 1">
+                </div>
+                <div class="work-details">
+                  <h3>Рівень 1</h3>
+                  <p>Pixel Art Game</p>
+                  <a href="https://example.com" class="work-link">Play Now</a>
+                </div>
+              </div>
+          
+              <div class="work-item">
+                <div class="work-image">
+                  <img src="project2.png" alt="Project 2">
+                </div>
+                <div class="work-details">
+                  <h3>Рівень 2</h3>
+                  <p>Retro Website</p>
+                  <a href="https://example.com" class="work-link">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <script src="/js/main.js"></script>
 </body>
 </html>

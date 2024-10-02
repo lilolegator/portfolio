@@ -1,0 +1,104 @@
+.retro-profile {
+    margin: 20px auto 0 auto;
+    width: 90%;
+    max-width: 600px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border: 4px solid #00ff00;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    text-align: center;
+}
+
+.profile-header h1 {
+    font-size: 1.5rem;
+    color: #00ff00;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.profile-header p {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 0;
+}
+
+.skills-container, .achievements-container {
+    margin-top: 20px;
+}
+
+.skills-container h2, .achievements-container h2 {
+    color: #00ff00;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    color: #fff;
+}
+
+.skill-bar {
+    flex: 2;
+    background-color: #333;
+    border: 2px solid #00ff00;
+    height: 15px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress {
+    background-color: #00ff00;
+    height: 85%;
+    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.8);
+    transition: width 0.5s ease;
+}
+
+.skill-level {
+    flex: 0.5;
+    text-align: right;
+    color: #fff;
+}
+
+.achievements-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements-container ul li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.achievements-container ul li span {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.achievements-container ul li span {
+    color: #00ff00;
+}
+
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+.about {
+    animation: flicker 0.8s infinite;
+}

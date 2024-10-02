@@ -1,3 +1,35 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-// @import "blocks/promo";
+* {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+}
+
+body {
+    background-color: #000;
+    
+    font-family: 'Press Start 2P', cursive;
+    color: #00ff00;
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+h1, p, h2, .skill-name, .skill-level, ul li {
+    text-shadow: 0 0 5px #00ff00;
+}
+
+
+
+
+
+
+
+@import "blocks/header";
+@import "blocks/about";
+@import "blocks/works";
